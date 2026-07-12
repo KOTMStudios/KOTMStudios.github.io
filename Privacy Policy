@@ -1,42 +1,27 @@
-# Política de Privacidad - Orbit Jumper
+Política de Privacidad - Orbit Jumper
+Última actualización: 12 de julio de 2026
 
+KOTM Studios ("nosotros", "nuestro" o "el Desarrollador") opera la aplicación móvil Orbit Jumper (en adelante, "la Aplicación"). Esta página le informa sobre nuestras políticas relativas a la recopilación, uso y divulgación de datos personales cuando utiliza nuestra Aplicación.
 
-**Última actualización:** 9 de junio de 2026
+1. Recopilación y Uso de la Información
+Para brindar una mejor experiencia y mantener la Aplicación gratuita, recopilamos información de forma automática y anónima. No recopilamos información de identificación personal directa (como su nombre, correo electrónico o dirección).
 
+Sin embargo, recopilamos automáticamente identificadores únicos del dispositivo (como el ID de publicidad de su dispositivo o Advertising ID) y datos de uso general (como estadísticas de fallos y tiempo de sesión). Utilizamos esta información exclusivamente con fines de analítica de rendimiento y para el funcionamiento de la publicidad dentro de la Aplicación.
 
-KOTM Studios ("nosotros", "nuestro" o "el Desarrollador") opera la aplicación móvil **Orbit Jumper** (en adelante, "la Aplicación"). Esta página le informa sobre nuestras políticas relativas a la recopilación, uso y divulgación de datos personales cuando utiliza nuestra Aplicación.
+2. Servicios de Terceros y Analítica
+La Aplicación utiliza servicios proporcionados por terceros que pueden recopilar información utilizada para identificar su dispositivo. Estos proveedores externos procesan el ID del dispositivo para ayudarnos a entender cómo interactúan los usuarios con Orbit Jumper, detectar errores y mejorar la experiencia de juego.
 
+3. Publicidad
+Nuestra Aplicación está respaldada por publicidad. Trabajamos con redes publicitarias de terceros que utilizan SDKs integrados en la Aplicación. Estas redes pueden usar el ID de publicidad de su dispositivo y otros datos técnicos anónimos para mostrar anuncios relevantes, limitar la cantidad de veces que ve un anuncio y medir la efectividad de las campañas.
 
-### 1. Recopilación y Uso de la Información
+4. Seguridad de los Datos
+Valoramos la confianza que deposita en nosotros. Aunque la Aplicación se ejecuta principalmente de forma local, los datos técnicos y los identificadores del dispositivo que se transmiten a nuestros socios de analítica y publicidad se envían utilizando protocolos de cifrado estándar de la industria (como HTTPS). KOTM Studios no almacena estos datos en servidores propios; son procesados de acuerdo con las políticas de seguridad de nuestros proveedores de servicios.
 
-Para la versión actual de la Aplicación, **no recopilamos, almacenamos ni solicitamos ninguna información de identificación personal** del usuario. No se requiere la creación de una cuenta, inicio de sesión o registro para utilizar el juego.
-
-
-### 2. Servicios de Terceros
-
-La Aplicación se desarrolla utilizando herramientas estándar de la industria. Sin embargo, en su versión actual, no se transmite, comparte ni vende ningún tipo de información del usuario a servidores externos ni a proveedores de servicios de terceros.
-
-
-### 3. Publicidad
-
-La Aplicación no muestra anuncios publicitarios ni integra SDKs de terceros para el seguimiento, perfilamiento o monetización de datos de los usuarios en esta versión de prueba.
-
-
-### 4. Seguridad de los Datos
-
-Dado que la Aplicación se ejecuta de forma local en su dispositivo y no recopila ni transmite datos personales a través de internet, el riesgo de exposición de información confidencial es inexistente durante la experiencia de juego.
-
-
-### 5. Privacidad de los Niños
-
+5. Privacidad de los Niños
 Nuestros servicios están dirigidos a personas de 13 años en adelante. No recopilamos a sabiendas información de identificación personal de niños menores de 13 años.
 
+6. Cambios a esta Política de Privacidad
+Es posible que actualicemos nuestra Política de Privacidad periódicamente para reflejar cambios en nuestras prácticas, en las integraciones de terceros o por motivos legales y regulatorios. Le notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página y actualizando la fecha de "Última actualización" en la parte superior. Le recomendamos revisar esta página de vez en cuando.
 
-### 6. Cambios a esta Política de Privacidad
-
-Es posible que actualicemos nuestra Política de Privacidad periódicamente (por ejemplo, al implementar las futuras funciones de monetización con AdMob previo al lanzamiento en producción). Le recomendamos revisar esta página de vez en cuando para ver si hay cambios.
-
-
-### 7. Contacto
-
+7. Contacto
 Si tiene alguna pregunta o sugerencia sobre esta Política de Privacidad, no dude en ponerse en contacto con nosotros a través del correo electrónico de soporte proporcionado en Google Play Console.
