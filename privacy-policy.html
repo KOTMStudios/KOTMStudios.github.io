@@ -1,0 +1,268 @@
+<title>Idle Rift RPG Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap">
+
+<style>
+  /*
+   * A public document a stranger opens on a phone, often in daylight — so it is
+   * light by default and legible before it is characterful. The game's amber
+   * shows up only as the accent, which is enough to tie it to the app without
+   * making a legal notice look like a splash screen.
+   */
+  :root {
+    --ground: #fbf9f5;
+    --surface: #f3efe7;
+    --line: #ddd5c7;
+    --ink: #241f1a;
+    --muted: #6b6055;
+    --accent: #9a6b12;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) {
+      --ground: #12100e;
+      --surface: #1c1916;
+      --line: #332d26;
+      --ink: #e8dcc8;
+      --muted: #9a8a76;
+      --accent: #d9a441;
+    }
+  }
+  :root[data-theme='dark'] {
+    --ground: #12100e;
+    --surface: #1c1916;
+    --line: #332d26;
+    --ink: #e8dcc8;
+    --muted: #9a8a76;
+    --accent: #d9a441;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
+    font-size: 1.02rem;
+    line-height: 1.7;
+  }
+  .wrap {
+    max-width: 68ch;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  h1, h2 {
+    font-family: Bitter, Georgia, serif;
+    line-height: 1.2;
+    text-wrap: balance;
+    margin: 0;
+  }
+  h1 { font-size: 2.4rem; font-weight: 700; letter-spacing: -0.01em; }
+  h2 { font-size: 1.3rem; font-weight: 600; margin-top: 0.5rem; }
+  p, ul { margin: 0; }
+  section { display: flex; flex-direction: column; gap: 0.8rem; }
+  ul { padding-left: 1.2rem; display: flex; flex-direction: column; gap: 0.4rem; }
+  li::marker { color: var(--accent); }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+
+  .meta {
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+  hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
+
+  /* The one claim the whole document rests on, given its own weight. */
+  .headline {
+    background: var(--surface);
+    border-left: 3px solid var(--accent);
+    padding: 1.1rem 1.3rem;
+    font-size: 1.08rem;
+  }
+
+  footer {
+    color: var(--muted);
+    font-size: 0.86rem;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 30rem) {
+    .wrap { padding: 2.5rem 1.1rem 4rem; }
+    h1 { font-size: 1.9rem; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Idle Rift RPG &middot; KOTM Studios &middot; Last updated 16 September 2026</p>
+  </header>
+
+  <p class="headline">
+    <strong>Idle Rift RPG does not collect personal information.</strong> The game
+    has no accounts, no sign-in and no advertising. From version 0.8.8 it sends
+    anonymous usage data and crash reports to help us fix and balance the game,
+    and you can switch that off at any time in Settings.
+  </p>
+
+  <hr class="rule">
+
+  <section>
+    <h2>Information we collect</h2>
+    <p>
+      We do not ask for your name, email address, phone number, precise location,
+      contacts, photos, or any other personal information. The name you give your
+      character stays on your device and is never sent. We do not use your
+      device's advertising identifier: the game switches its collection off and
+      does not request the permission to read it.
+    </p>
+    <p>
+      To understand how the game is played and to fix problems, the app uses two
+      Google Firebase services, which receive the following:
+    </p>
+    <ul>
+      <li>
+        <strong>Usage data (Firebase Analytics).</strong> Game events such as
+        creating a character, reading a tutorial card, starting and finishing a
+        rift, defeating a boss, reaching a level or a vocation, using the forge,
+        opening a chest and resetting through prestige, with game details such as
+        the zone, difficulty and level. Firebase also records when the app is
+        opened and for how long, together with the device model, operating system
+        version, app version, language, and an approximate country or region
+        derived from the connection.
+      </li>
+      <li>
+        <strong>Crash reports (Firebase Crashlytics).</strong> When the app crashes
+        or hits an error: the technical details of the error, the device model and
+        operating system version, the app version, basic device state such as free
+        memory, and the last few game events before the problem.
+      </li>
+    </ul>
+    <p>
+      Both services identify an installation of the app with a random identifier
+      that Firebase creates on your device. It is not linked to your name, your
+      Google account, or any account of ours.
+    </p>
+  </section>
+
+  <section>
+    <h2>How we use it</h2>
+    <p>
+      Only to find and fix crashes, and to learn where the game is confusing,
+      too hard or too slow — for example, how many players finish the tutorial or
+      reach their first boss. We do not sell this data, do not use it for
+      advertising, and do not combine it with information from other sources.
+    </p>
+  </section>
+
+  <section>
+    <h2>Switching it off</h2>
+    <p>
+      Open the menu (&#9776;), then &#9881; Settings, and turn off
+      <strong>Share usage data and crash reports</strong>. While it is off the
+      game sends no usage data and no crash reports, and Firebase collection is
+      disabled on your device. You can turn it back on the same way. The game plays
+      exactly the same either way.
+    </p>
+  </section>
+
+  <section>
+    <h2>What the game stores on your device</h2>
+    <p>
+      Your progress is saved locally on your device so the game can continue where
+      you left off. That save contains only game state:
+    </p>
+    <ul>
+      <li>Your character's name, class, experience, level, and weapon skills</li>
+      <li>Items, materials, gold, and potions you are carrying</li>
+      <li>Which zones you have unlocked and which creatures you have studied</li>
+      <li>Your game settings, such as potion thresholds</li>
+      <li>A randomly generated character identifier, created on your device</li>
+    </ul>
+    <p>
+      The save never leaves your device. It is held in your device's private app
+      storage, where no other app can read it and neither can we.
+    </p>
+  </section>
+
+  <section>
+    <h2>Third parties</h2>
+    <p>
+      Usage data and crash reports are processed by Google as a service provider
+      for Firebase, under the
+      <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase privacy and security terms</a>
+      and <a href="https://policies.google.com/privacy" rel="noopener">Google's privacy policy</a>.
+      The game contains no advertising networks and no social media integrations.
+    </p>
+    <p>
+      If you installed the game through Google Play, Google may also collect
+      information about the installation itself under its own privacy policy. That
+      is a function of the store, not of this game.
+    </p>
+  </section>
+
+  <section>
+    <h2>How long it is kept</h2>
+    <p>
+      Crash reports are kept for 90 days. Usage data is kept for no longer than
+      14 months, after which it is deleted automatically.
+    </p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>
+      The game does not knowingly collect personal information from anyone, of any
+      age. There is nothing in it that would allow a child to disclose personal
+      information: no chat, no user profiles, no user-generated content that is
+      sent anywhere, and no way to contact other players.
+    </p>
+  </section>
+
+  <section>
+    <h2>Deleting your data</h2>
+    <p>Your game progress is entirely on your device:</p>
+    <ul>
+      <li>Use the in-game wipe option to erase your character and start fresh</li>
+      <li>Clear the app's storage from your device's Settings</li>
+      <li>Uninstall the app, which removes the save entirely</li>
+    </ul>
+    <p>
+      Usage data and crash reports are not linked to anything that identifies you,
+      so we cannot look them up for a specific person; they are deleted
+      automatically as described above. If you have a question about them, write
+      to us at the address below.
+    </p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>
+      If a future version of the game changes what data it handles — cloud saves
+      or leaderboards, for example — this policy will be updated before that
+      version is released, and the change will be described in the release notes.
+      The date at the top of this page always reflects the current version.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Questions about this policy can be sent to
+      <a href="mailto:kotmstudios@gmail.com">kotmstudios@gmail.com</a>.
+    </p>
+  </section>
+
+  <hr class="rule">
+
+  <footer>
+    Idle Rift RPG is developed by KOTM Studios.<br>
+    Package name: com.kotmstudios.idleriftrpg
+  </footer>
+
+</div>
