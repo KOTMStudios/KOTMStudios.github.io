@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Idle Rift RPG</title>
+<meta name="description" content="Idle Rift RPG, an idle pixel-art RPG for Android by KOTM Studios.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap">
+
+<style>
+  /*
+   * The app's home page, for the OAuth consent screen's Branding (17-10):
+   * Google asks for a home page on an authorised domain beside the privacy
+   * policy, and this address answered 404. Same look as the policy beside it.
+   */
+  :root {
+    --ground: #fbf9f5;
+    --line: #ddd5c7;
+    --ink: #241f1a;
+    --muted: #6b6055;
+    --accent: #9a6b12;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) {
+      --ground: #12100e;
+      --line: #332d26;
+      --ink: #e8dcc8;
+      --muted: #9a8a76;
+      --accent: #d9a441;
+    }
+  }
+  :root[data-theme='dark'] {
+    --ground: #12100e;
+    --line: #332d26;
+    --ink: #e8dcc8;
+    --muted: #9a8a76;
+    --accent: #d9a441;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
+    font-size: 1.02rem;
+    line-height: 1.7;
+  }
+  .wrap {
+    max-width: 62ch;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+  h1 {
+    font-family: Bitter, Georgia, serif;
+    font-size: 2.2rem;
+    line-height: 1.15;
+    margin: 0;
+    text-wrap: balance;
+  }
+  p { margin: 0; }
+  .lede { color: var(--muted); }
+  a { color: var(--accent); font-weight: 600; }
+  ul { margin: 0; padding-left: 1.2rem; }
+  footer { border-top: 1px solid var(--line); padding-top: 1.2rem; color: var(--muted); font-size: 0.92rem; }
+</style>
+
+<main class="wrap">
+  <h1>Idle Rift RPG</h1>
+  <p class="lede">An idle pixel-art RPG for Android: your hero hunts the rifts while you are away, and you come back to the loot, the forge and the next zone.</p>
+  <ul>
+    <li><a href="https://play.google.com/store/apps/details?id=com.kotmstudios.idleriftrpg">Get it on Google Play</a></li>
+    <li><a href="privacy-policy.html">Privacy policy</a></li>
+  </ul>
+  <p>Questions, or a request about your data: <span>kotmstudios@gmail.com</span></p>
+  <footer>Made by KOTM Studios (King Over The Mountain).</footer>
+</main>
+</html>
